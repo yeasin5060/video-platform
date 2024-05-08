@@ -1,0 +1,127 @@
+#navbar{
+    padding: 30px 0;
+    background: #fff;
+}
+.navbar-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar-logo-box{
+    width: 20%;
+}
+.navbar-logo{
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+}
+.navbar-logo-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.head-nav-box{
+    width: 80%;
+}
+.header-wrapper-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-search-box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 15px;
+}
+.search-input-box{
+    width: 500px;
+    background: #fff;
+}
+.head-search{
+    width: 100%;
+    padding: 13px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    border: 1px solid #00000088;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+}
+.search-voice-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f0ebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all linear 03.s;
+}
+.search-voice-box:hover{
+    background: #dbd4d4;
+}
+.search-vouce{
+    font-size: 25px;
+    color: #000;
+    cursor: pointer;
+}
+.head-profile-box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 35px;
+}
+.head-notification-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.head-notification{
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+.head-profile-box{
+    width: 70px;
+    height: 70px;
+    background: #dbd4d4;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.head-profile-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-box{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-route{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-route li a{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #412727;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #f0ebeb;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.nav-route li a:hover{
+    background: #dbd4d4;
+}
