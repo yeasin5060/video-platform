@@ -2,7 +2,7 @@ import React from 'react'
 
 const All = () => {
   return (
-    <div>All</div>
+   <><h1>hello</h1></>
   )
 }
 

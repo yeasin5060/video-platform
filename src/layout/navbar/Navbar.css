@@ -1,6 +1,11 @@
 #navbar{
     padding: 30px 0;
     background: #fff;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
 .navbar-wrap{
     display: flex;
