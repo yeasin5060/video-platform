@@ -1,0 +1,60 @@
+{
+    "allvideo":[
+        {
+            "id": 1 ,
+            "link":"https://youtu.be/sc-FApGZXB0?si=ZUGbapj331ufXhmC",
+            "title": "ঘুমানোর আগে সেরা কুরআন তিলাওয়াত ২০২৪ । BEST QURAN TILAWAT BEFORE DEEP SLEEP",
+            "chanle":"Sundar Quran Tilawat",
+            "view" : "1M",
+            "date" : "14-3-2024"
+        },
+        {
+            "id": 2 ,
+            "link":"https://youtu.be/XHvWx1F3S4A?si=zjt1abjV7J_2tvdU",
+            "title": "Reciter Abdul Rahman Mossad ساعة كاملة تلاوة هادئة بصوت عبدالرحمن مسعد",
+            "chanle":"Osama Kurdi",
+            "view" : "2M",
+            "date" : "21-10-2023"
+        },
+        {
+            "id": 3 ,
+            "link":"https://youtu.be/sc-FApGZXB0?si=ZUGbapj331ufXhmC",
+            "title": "Make your app the best it can be with Firebase",
+            "chanle":"Firebase",
+            "view" : "1M",
+            "date" : "11-3-2022"
+        },
+        {
+            "id": 4 ,
+            "link":"https://youtu.be/GXlckaGr0Eo?si=-5TT-keM8rXfnH9G",
+            "title": "ASMR Programming - Coding Pacman - No Talking",
+            "chanle":"Servet Gulnaroglu",
+            "view" : "200k",
+            "date" : "11-3-2021"
+        },
+        {
+            "id": 5 ,
+            "link":"https://youtu.be/DlKl8me4Npw?si=9KqZ6Osw2qjCwNhN",
+            "title": "If Programming Was an Anime 3",
+            "chanle":"Joma Tech",
+            "view" : "500K",
+            "date" : "15-5-2023"
+        },
+        {
+            "id": 6 ,
+            "link":"https://youtu.be/vcLRWiTNCbQ?si=SanmKq9bBUTr45Cr",
+            "title": "RARE INDIAN STREET FOOD....YUMMYY🤤| CARRYMINATI",
+            "chanle":"CarryMinati",
+            "view" : "1.5M",
+            "date" : "11-3-2020"
+        },
+        {
+            "id": 7 ,
+            "link":"https://youtu.be/e_TxH59MclA?si=QjNU6Jcnc7X4PmQT",
+            "title": "Day in the Life of a Japanese Game Programmer",
+            "chanle":"Paolo fromTOKYO",
+            "view" : "1M",
+            "date" : "09-5-2020"
+        }
+    ]
+}

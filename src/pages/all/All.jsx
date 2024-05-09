@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Allvideo from './allvideo/Allvideo'
 const All = () => {
   return (
-   <><h1>hello</h1></>
+    <>
+    <Allvideo/>
+    </>
   )
 }
 

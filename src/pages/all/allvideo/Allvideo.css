@@ -1,0 +1,10 @@
+#all-video{
+    background: #fff;
+    width: 100%;
+}
+.all-video-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
