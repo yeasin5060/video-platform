@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllVideo } from '../../../creatslice/videoslice';
 import './Allvideo.css';
 import Videocard from '../../../component/videocard/Videocard';
+import axios from 'axios';
 
 const Allvideo = () => {
-    const [ allData , setAllData] = useState([])
     let { loding , isError , error , data} = useSelector(state => state.video);
     const dispatch = useDispatch();
     useEffect(()=>{
@@ -20,14 +20,15 @@ const Allvideo = () => {
       allvideo = `error ${error}`
     }
     if(!loding && !isError && data.length > 0){
-      allvideo = data
+      allvideo = data.map((item)=> <Videocard alldata = {item} key={item.id} />)
     }
-    setAllData(allvideo)
   return (
     <section id='all-video'>
     <div className='container'>
         <div className='all-video-flex'>
-          
+           {
+            allvideo
+           }
         </div>
     </div>
   </section>
