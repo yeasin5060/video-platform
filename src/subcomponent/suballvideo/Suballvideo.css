@@ -1,0 +1,23 @@
+.video-title-style{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    line-height: 150%;
+}
+.video-channle-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 150%;
+    margin-top: 8px;
+}
+.video-view-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.video-date-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}

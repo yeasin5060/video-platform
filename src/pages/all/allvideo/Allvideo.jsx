@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllVideo } from '../../../creatslice/videoslice';
+import Suballvideo from '../../../subcomponent/suballvideo/Suballvideo';
 import './Allvideo.css';
-import Videocard from '../../../component/videocard/Videocard';
-import axios from 'axios';
 
 const Allvideo = () => {
     let { loding , isError , error , data} = useSelector(state => state.video);
@@ -20,7 +19,7 @@ const Allvideo = () => {
       allvideo = `error ${error}`
     }
     if(!loding && !isError && data.length > 0){
-      allvideo = data.map((item)=> <Videocard alldata = {item} key={item.id} />)
+      allvideo = data.map((item)=> <Suballvideo alldata = {item} key={item.id} />)
     }
   return (
     <section id='all-video'>

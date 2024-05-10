@@ -3,11 +3,11 @@ import Nanohead from '../../utilities/Nanohead'
 import Pera from '../../utilities/Pera'
 import './Videocard.css'
 
-const Videocard = ( alldata ,{video,title , titlestyle , channle , channlestyle ,view,viewstyle, date , datestyle}) => {
+const Videocard = ({video,title , titlestyle , channle , channlestyle ,view,viewstyle, date , datestyle}) => {
   return (
     <div className='video-cart-box'>
         <div className='viveo-box'>
-            {video}
+            <iframe src={video} frameborder="0"></iframe>
         </div>
         <div className='video-details-box'>
             <Nanohead text={title} style={titlestyle}/>
