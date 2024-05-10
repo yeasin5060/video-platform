@@ -1,0 +1,23 @@
+.gaming-title-style{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    line-height: 150%;
+}
+.gaming-channle-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 150%;
+    margin-top: 8px;
+}
+.gaming-view-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.gaming-date-style{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}

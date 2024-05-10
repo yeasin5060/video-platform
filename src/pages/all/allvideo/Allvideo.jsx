@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllVideo } from '../../../creatslice/videoslice';
 import Suballvideo from '../../../subcomponent/suballvideo/Suballvideo';
@@ -11,7 +11,8 @@ const Allvideo = () => {
       dispatch(fetchAllVideo())
     },[dispatch])
 
-    let allvideo 
+    let allvideo;
+
     if(loding){
       allvideo = "loding...."
     }
