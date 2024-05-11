@@ -130,5 +130,71 @@
             "view" : "200k",
             "date" : "11-3-2021"
         }
+    ],
+    "musicvideo":[
+        {
+            "id": 1 ,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024"
+        },
+        {
+            "id": 2 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023"
+        },
+        {
+            "id": 3 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022"
+        },
+        {
+            "id": 4 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021"
+        },
+        {
+            "id": 5,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024"
+        },
+        {
+            "id": 6 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023"
+        },
+        {
+            "id": 7 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022"
+        },
+        {
+            "id": 8 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021"
+        }
     ]
 }

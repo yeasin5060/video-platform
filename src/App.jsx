@@ -7,6 +7,7 @@ import {
 import Main from "./layout/main/Main";
 import All from "./pages/all/All";
 import Gamings from "./pages/gaming/Gamings";
+import Musics from "./pages/music/Musics";
 
 function App() {
   const router = createBrowserRouter(
@@ -14,6 +15,7 @@ function App() {
       <Route element = {<Main/>}>
           <Route path="/" element = {<All/>}/>
           <Route path="/gaming" element = {<Gamings/>}/>
+          <Route path="/music" element = {<Musics/>}/>
       </Route>
     )
   );
