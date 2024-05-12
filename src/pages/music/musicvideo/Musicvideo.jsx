@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import './Musicvideo.css'
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchMusicVideo } from '../../../creatslice/musicslice'
-import Suballmusicvideo from '../../../subcomponent/suballmusicvideo/Suballmusicvideo'
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchMusicVideo } from '../../../creatslice/musicslice';
+import Suballmusicvideo from '../../../subcomponent/suballmusicvideo/Suballmusicvideo';
+import './Musicvideo.css';
 
 const Musicvideo = () => {
     let {loding , isError , error , msdata} = useSelector(state => state.musicvideo)
