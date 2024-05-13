@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Subhead from '../../utilities/Subhead'
 import Pera from '../../utilities/Pera'
 import { Link } from 'react-router-dom'
@@ -8,6 +8,40 @@ import Button from '../../component/button/Button'
 import './Login.css'
 
 const Login = () => {
+                //this useState recive the login data
+    const [loginData , setLoginData] = useState({
+        email : "",
+        password : ""
+    })
+
+                //this useState send the error when user empty the input box and press the login button;
+    const [sendError , setSendError] = useState({
+        email : "",
+        password : ""
+    }) 
+
+    const handelform = (e)=>{
+        let {name , value} = e.target
+        setLoginData({...loginData,[name]:value})
+    }
+
+         //email regex
+  const emailregex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ 
+
+    const loginBtn = (e)=>{
+        e.preventDefault();
+                //validation
+        if(!loginData.email){
+            setSendError({email:"Email is Require"})
+        }else if(!loginData.email.match(emailregex)){
+            setSendError({email : ""})
+            setSendError({email : "Inter valid Email"})
+        }else if(!loginData.password){
+            setSendError({password : "Password is Require"})
+        }else{
+
+        }
+    }
   return (
     <section id='login-page'>
         <div className='login-page-wrapper'>
@@ -20,21 +54,24 @@ const Login = () => {
                             <img src={googlelogo} alt="not found" />
                             <Link className='google-account' to='google'>Sign in with Google</Link>
                         </div>
+                        <div className='or-box'>or</div>
                     </div>
                     <form className='form-box'>
                         <Pera text="Email Address" style="email-style"/>
                         <div className='email-input-box'>
-                            <input className='email-input' type='email' placeholder='Enter your email'/>
+                            <input className='email-input' type='email' placeholder='Enter your email' name="email" onChange={handelform}/>
+                            {sendError.email && <p className='lonin-error'>{sendError.email}</p>}
                         </div>
                         <Pera text="password" style="password-style"/>
                         <div className='password-input-box'>
-                            <input className='password-input' type='password' placeholder='Enter your password'/>
+                            <input className='password-input' type='password' placeholder='Enter your password' name="password" onChange={handelform}/>
+                            {sendError.password && <p className='lonin-error'>{sendError.password}</p>}
                         </div>
                         <div className='forget-pass-box'>
                             <Link className='forget-pass' to='forget'>Forget?</Link>
                         </div>
                         <div className='form-login-btn-box'>
-                            <Button text='login' style='form-login-btn'/>
+                            <Button Submit={loginBtn} text='login' style='form-login-btn'/>
                         </div>
                         <div className='sign-create-account-box'>
                             <Pera text='Not a member?' style='sign-create-account-style'/>

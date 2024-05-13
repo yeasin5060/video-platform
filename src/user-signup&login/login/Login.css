@@ -43,6 +43,32 @@
     column-gap: 10px;
     padding: 8px 0;
     margin-bottom: 10px;
+    position: relative;
+}
+.google-account-box::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: -40px;
+    width: 170px;
+    height: 1px; 
+    background: #857979;
+}
+.google-account-box::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -40px;
+    width: 170px;
+    height: 1px; 
+    background: #857979;
+}
+.or-box{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2c2c72;
+    margin-top: 26px;
 }
 .google-account{
     font-size: 16px;
@@ -53,6 +79,7 @@
 .form-box{
     width: 100%;
     text-align: left;
+    margin-top: 70px;
 }
 .email-style{
     font-size: 16px;
@@ -73,6 +100,12 @@
     border: 1px solid #2c2c72;
     outline: none;
     border-radius: 10px;
+}
+.lonin-error{
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+    margin-top: 10px;
 }
 .password-style{
     font-size: 16px;
