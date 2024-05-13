@@ -80,6 +80,26 @@
     justify-content: right;
     column-gap: 35px;
 }
+.head-profile-login-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-profile-login{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    background: #dbd4d4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.head-profile-login:hover{
+    background: #f0ebeb;
+    color: #412727;
+}
 .head-notification-box{
     display: flex;
     justify-content: center;

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const subhead = ({text , style}) => {
+const Subhead = ({text , style}) => {
   return (
     <h2 className={style}>{text}</h2>
   )
 }
 
-export default subhead
+export default Subhead

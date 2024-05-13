@@ -1,9 +1,10 @@
 import React from 'react'
 import Img from '../../component/img/Img';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { IoMdMic } from "react-icons/io";
 import logo from '../../images/videologo.png'
+import profile from '../../images/profile.jpg'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -27,11 +28,14 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='head-profile-box-flex'>
+                            <div className='head-profile-login-box'>
+                                <Link className='head-profile-login' to='login'>login</Link>
+                            </div>
                             <div className='head-notification-box'>
                                  <IoMdNotificationsOutline className='head-notification' />
                             </div>
                             <div className='head-profile-box'>
-                                <Img src=""/>
+                                <Img src={profile} />
                             </div>
                         </div>
                     </header>
