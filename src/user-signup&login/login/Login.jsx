@@ -75,7 +75,7 @@ const Login = () => {
                         </div>
                         <div className='sign-create-account-box'>
                             <Pera text='Not a member?' style='sign-create-account-style'/>
-                            <Link className='sign-create-style' to='sign'>Create Account</Link>
+                            <Link className='sign-create-style' to='/signup'>Create Account</Link>
                         </div>
                     </form>
                 </div>

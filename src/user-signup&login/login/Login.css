@@ -90,6 +90,7 @@
 }
 .email-input-box{
     width: 100%;
+    
 }
 .email-input{
     width: 100%;
@@ -102,10 +103,10 @@
     border-radius: 10px;
 }
 .lonin-error{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     color: red;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 .password-style{
     font-size: 16px;

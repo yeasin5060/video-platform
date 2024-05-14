@@ -89,9 +89,9 @@
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     text-transform: capitalize;
-    background: #dbd4d4;
+    background: #212424d0;
     border-radius: 10px;
     cursor: pointer;
     transition: all linear 0.3s;

@@ -10,6 +10,8 @@ import Gamings from "./pages/gaming/Gamings";
 import Musics from "./pages/music/Musics";
 import Lofi from "./pages/lofi/Lofi";
 import Login from "./user-signup&login/login/Login";
+import Signup from "./user-signup&login/signup/Signup";
+
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +23,7 @@ function App() {
             <Route path="/music" element = {<Musics/>}/>
             <Route path="/lofi" element = {<Lofi/>}/>
           </Route>
+          <Route path="signup" element={<Signup/>}/>
           <Route path="/login" element={<Login/>}/>
       </Route>
     )
