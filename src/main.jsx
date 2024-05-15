@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { store } from './app/store'
 import { Provider } from 'react-redux'
+import firebaseConfig from './firebaseconfig/firebaseconfig.js'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

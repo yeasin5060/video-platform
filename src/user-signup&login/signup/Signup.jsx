@@ -3,9 +3,17 @@ import Subhead from '../../utilities/Subhead'
 import Pera from '../../utilities/Pera'
 import musicimg from '../../images/login-music-img.jpeg'
 import Button from '../../component/button/Button'
+import { getAuth, createUserWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
+import { getDatabase, ref, set } from "firebase/database";
+import { useNavigate } from 'react-router-dom'
 import './Signup.css'
 
 const Signup = () => {
+    const auth = getAuth()
+    const db = getDatabase()
+    const navigate = useNavigate()
+
+                //this useState recive the signup data
     const [signinData , setSigninData] = useState({
         fullname : "",
         email : "",
@@ -57,7 +65,33 @@ const Signup = () => {
             setSendError({conpass : "Confirm Password Don't match"})
         }else{
             setSendError({conpass:""})
-            console.log(signinData);
+            createUserWithEmailAndPassword(auth, signinData.email, signinData.password)
+            .then((userCredential) => {
+                sendEmailVerification(auth.currentUser)
+                .then(() => {
+                    updateProfile(auth.currentUser, {
+                        displayName: signinData.fullname, 
+                        photoURL: "https://example.com/jane-q-user/profile.jpg"
+                      }).then(() => {
+                            set(ref(db,"viewerdata/" + userCredential.user.uid), {
+                                viewername : userCredential.user.displayName,
+                                vieweremail : userCredential.user.email,
+                                viewerimg : userCredential.user.photoURL
+                            })
+                      }).then(()=>{
+                        navigate("/login")
+                        console.log(userCredential.user);
+                    });
+                });
+            })
+            .catch((error) => {
+              const errorCode = error.code;
+              if(errorCode == "auth/email-already-in-use"){
+                    setSendError({email :"Email already exised"})
+              }else{
+                setSendError({email : ""})
+              }
+            });
         }
     }
   return (
