@@ -1,13 +1,16 @@
 import React, { useState } from 'react'
 import Subhead from '../../utilities/Subhead'
 import Pera from '../../utilities/Pera'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import googlelogo from '../../images/google.svg'
 import musicimg from '../../images/login-music-img.jpeg'
 import Button from '../../component/button/Button'
+import { getAuth, signInWithEmailAndPassword ,signOut} from "firebase/auth";
 import './Login.css'
 
 const Login = () => {
+    const auth = getAuth();
+    const navigate = useNavigate()
                 //this useState recive the login data
     const [loginData , setLoginData] = useState({
         email : "",
@@ -39,6 +42,25 @@ const Login = () => {
         }else if(!loginData.password){
             setSendError({password : "Password is Require"})
         }else{
+            signInWithEmailAndPassword(auth, loginData.email, loginData.password)
+                .then((userCredential) => {
+                    if(userCredential.user.emailVerified){ //check email verified
+                        navigate("/")
+                        console.log(userCredential.user);
+                     }else{
+                        signOut(auth).then(() => {
+                            setSendError({email:"Please verify your email"})
+                        });
+                    }
+                })
+                .catch((error) => {
+                    const errorCode = error.code;
+                    if(errorCode == "auth/invalid-credential"){
+                        setSendError({email : "invalid email or password"})
+                    }else{
+                        setSendError({email : ""})
+                    }
+                });
 
         }
     }
