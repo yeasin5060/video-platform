@@ -2,7 +2,9 @@ import React from 'react'
 
 const Sidebarhistory = () => {
   return (
-    <div>Sidebarhistory</div>
+    <div>
+      
+    </div>
   )
 }
 

@@ -1,0 +1,12 @@
+.sidebarhome{
+    position: relative;
+}
+.sidebarhome::after{
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    left: 0;
+    bottom: -15px;
+    background: #7e737342;
+}
