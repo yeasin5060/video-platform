@@ -46,7 +46,6 @@ const Login = () => {
                 .then((userCredential) => {
                     if(userCredential.user.emailVerified){ //check email verified
                         navigate("/")
-                        console.log(userCredential.user);
                      }else{
                         signOut(auth).then(() => {
                             setSendError({email:"Please verify your email"})
