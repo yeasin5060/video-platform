@@ -1,0 +1,25 @@
+.sidebarexploer-box{
+    position: relative;
+    margin-top: 40px;
+}
+.sidebarexploer-box::after{
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    left: 0;
+    bottom: -15px;
+    background: #7e737342;
+}
+.exploer-details-box{
+    text-align:left;
+}
+.exploer-ditails{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    padding-left: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
