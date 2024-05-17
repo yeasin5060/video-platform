@@ -1,0 +1,9 @@
+.sidebar{
+    width: 15%;
+    background: #fff;
+    position: fixed;
+    height: 100%;
+    top: 200px;
+    z-index: 999;
+    padding: 20px 20px ;
+}

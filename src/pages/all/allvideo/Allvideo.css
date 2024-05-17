@@ -2,6 +2,7 @@
     background: #fff;
     width: 100%;
     margin-top: 100px;
+    position: relative;
 }
 .all-video-flex{
     display: flex;

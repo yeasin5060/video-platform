@@ -1,0 +1,33 @@
+.navlink{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 40px;
+    background:#fff;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.navlink .active{
+    width: 100%;
+    background:transparent;
+    border-radius: 10px;
+}
+.navlink:hover{
+    background:#9b949460;
+}
+.navlink-style{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.navlink-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #000;
+}

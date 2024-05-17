@@ -24,13 +24,13 @@ const Allvideo = () => {
     }
   return (
     <section id='all-video'>
-    <div className='container'>
+      <div className='container'>
         <div className='all-video-flex'>
-           {
+          {
             allvideo
-           }
+          }
         </div>
-    </div>
+      </div>
   </section>
   )
 }
