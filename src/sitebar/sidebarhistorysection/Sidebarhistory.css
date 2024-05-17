@@ -1,0 +1,44 @@
+.sidebarhistory-box{
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+.sidebarhistory-box::after{
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 2px;
+    left: 0;
+    bottom: -15px;
+    background: #7e737342;
+}
+.users-details-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 30px;
+    background: #fff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.users-details-box:hover{
+    background:#9b949460;
+}
+.users-ditails{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.uesr-details-icon{
+    font-size: 25px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
