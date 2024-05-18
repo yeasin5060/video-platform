@@ -1,8 +1,17 @@
 .userdash-profile-box-flex{
     display: flex;
-    align-items: center;
     justify-content: left;
     column-gap: 30px;
+    position: relative;
+}
+.userdash-profile-box-flex::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -30px;
+    background: #746c6c;
 }
 .userdash-profile-box{
     width: 70px;
@@ -29,4 +38,17 @@
     font-size: 16px;
     font-weight: 400;
     color: #000;
+}
+.user-channel-box{
+    margin-top: 10px;
+    text-align: left;
+}
+.user-create-channel{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(18, 61, 124);
+}
+.userdash-all-link-box{
+    margin-top: 30px;
 }
