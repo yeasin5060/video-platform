@@ -4,8 +4,13 @@ import { IoMdMic } from "react-icons/io";
 import logo from '../../../images/videologo.png'
 import profile from '../../../images/profile.jpg'
 import { Link } from 'react-router-dom';
+import Userdashboard from '../../../component/userdashboard/Userdashboard';
 
 const Navhead = () => {
+    let userdetails = document.querySelector(".userdashboard-contant-box")
+    let userDash = ()=>{
+        userdetails.classList.toggle("active")
+    }
   return (
     <div className='navbar-wrap'>
         <div className='navbar-logo-box'>
@@ -28,9 +33,10 @@ const Navhead = () => {
             <div className='head-notification-box'>
                 <IoMdNotificationsOutline className='head-notification' />
             </div>
-            <div className='head-profile-box'>
-                <img src={profile}  alt='not found'/>
+            <div onClick={userDash} className='head-profile-box'>
+                <img className='head-profile-img' src={profile}  alt='not found'/>
             </div>
+            <Userdashboard userdashboard="userdashboard-contant-box"/>
         </div>
     </div>
   )

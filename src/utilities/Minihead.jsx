@@ -2,7 +2,7 @@ import React from 'react'
 
 const minihead = ({text , style}) => {
   return (
-    <div className={style}>{text}</div>
+    <h3 className={style}>{text}</h3>
   )
 }
 

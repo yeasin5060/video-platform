@@ -1,0 +1,32 @@
+.userdash-profile-box-flex{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    column-gap: 30px;
+}
+.userdash-profile-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userdash-profile-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.userdash-name-box{
+    text-align: left;
+}
+.userdash-name-head{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+    list-style: 150%;
+    margin-bottom: 8px;
+}
+.userdash-email{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}

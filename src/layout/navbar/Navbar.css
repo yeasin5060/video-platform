@@ -110,6 +110,7 @@
     overflow: hidden;
     border-radius: 50%;
     cursor: pointer;
+    position: relative;
 }
 .head-profile-box img{
     width: 100%;
@@ -142,4 +143,22 @@
 }
 .nav-route li a:hover{
     background: #dbd4d4;
+}
+.userdashboard-contant-box {
+    background: #fff;
+    width: 400px;
+    position: absolute;
+    padding: 30px;
+    border-radius: 10px;
+    right: 170px;
+    top: 150px;
+    transition: all linear 0.3s;
+    z-index: 999;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    opacity: 0;
+}
+.userdashboard-contant-box.active{
+    opacity: 1;
 }
