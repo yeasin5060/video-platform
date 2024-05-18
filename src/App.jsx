@@ -6,9 +6,6 @@ import {
 } from "react-router-dom";
 import Main from "./layout/main/Main";
 import All from "./pages/all/All";
-import Gamings from "./pages/gaming/Gamings";
-import Musics from "./pages/music/Musics";
-import Lofi from "./pages/lofi/Lofi";
 import Login from "./user-signup&login/login/Login";
 import Signup from "./user-signup&login/signup/Signup";
 
@@ -19,9 +16,6 @@ function App() {
       <Route>
           <Route element = {<Main/>}>
             <Route path="/" element = {<All/>}/>
-            <Route path="/gaming" element = {<Gamings/>}/>
-            <Route path="/music" element = {<Musics/>}/>
-            <Route path="/lofi" element = {<Lofi/>}/>
           </Route>
           <Route path="signup" element={<Signup/>}/>
           <Route path="/login" element={<Login/>}/>

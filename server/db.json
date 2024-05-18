@@ -6,7 +6,14 @@
             "title": "ঘুমানোর আগে সেরা কুরআন তিলাওয়াত ২০২৪ । BEST QURAN TILAWAT BEFORE DEEP SLEEP",
             "chanle":"Sundar Quran Tilawat",
             "view" : "1M",
-            "date" : "14-3-2024"
+            "date" : "14-3-2024",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 2 ,
@@ -14,7 +21,14 @@
             "title": "Reciter Abdul Rahman Mossad ساعة كاملة تلاوة هادئة بصوت عبدالرحمن مسعد",
             "chanle":"Osama Kurdi",
             "view" : "2M",
-            "date" : "21-10-2023"
+            "date" : "21-10-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 3 ,
@@ -22,7 +36,14 @@
             "title": "Make your app the best it can be with Firebase",
             "chanle":"Firebase",
             "view" : "1M",
-            "date" : "11-3-2022"
+            "date" : "11-3-2022",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 4 ,
@@ -38,7 +59,14 @@
             "title": "If Programming Was an Anime 3",
             "chanle":"Joma Tech",
             "view" : "500K",
-            "date" : "15-5-2023"
+            "date" : "15-5-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 6 ,
@@ -46,7 +74,14 @@
             "title": "RARE INDIAN STREET FOOD....YUMMYY🤤| CARRYMINATI",
             "chanle":"CarryMinati",
             "view" : "1.5M",
-            "date" : "11-3-2020"
+            "date" : "11-3-2020",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 7 ,
@@ -54,7 +89,14 @@
             "title": "Day in the Life of a Japanese Game Programmer",
             "chanle":"Paolo fromTOKYO",
             "view" : "1M",
-            "date" : "09-5-2020"
+            "date" : "09-5-2020",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         },
         {
             "id": 8 ,
@@ -62,205 +104,277 @@
             "title": "ASMR Programming - Coding Pacman - No Talking",
             "chanle":"Servet Gulnaroglu",
             "view" : "200k",
-            "date" : "11-3-2021"
+            "date" : "11-3-2021",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 9 ,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 10 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 11 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 12 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 13,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 14 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 15 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 16 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 17 ,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 18 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 19 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 20 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 21,
+            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
+            "title": "Experience Big Time: Gaming excitement awaits, join us today",
+            "chanle":"Big Time",
+            "view" : "1M",
+            "date" : "14-3-2024",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 22 ,
+            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
+            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
+            "chanle":"pubg RICH",
+            "view" : "2M",
+            "date" : "21-10-2023",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+        },
+        {
+            "id": 23 ,
+            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
+            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
+            "chanle":"Nemo",
+            "view" : "1M",
+            "date" : "11-3-2022",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
+
+        },
+        {
+            "id": 24 ,
+            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
+            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
+            "chanle":"Fatih GAMING",
+            "view" : "200k",
+            "date" : "11-3-2021",
+            "tage" : [
+                "music",
+                "gaming",
+                "lofi",
+                "t-series",
+                "sciencefiction"
+            ]
         }
     ],
-    "gamingvideo":[
+    "tage" : [
         {
-            "id": 1 ,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
+           "id" : 1,
+            "title" : "Music"
         },
         {
-            "id": 2 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 3 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 4 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        },
-        {
-            "id": 5,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
-        },
-        {
-            "id": 6 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 7 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 8 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        }
-    ],
-    "musicvideo":[
-        {
-            "id": 1 ,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
-        },
-        {
-            "id": 2 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 3 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 4 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        },
-        {
-            "id": 5,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
-        },
-        {
-            "id": 6 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 7 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 8 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        }
-    ],
-    "lofivideo":[
-        {
-            "id": 1 ,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
-        },
-        {
-            "id": 2 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 3 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 4 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        },
-        {
-            "id": 5,
-            "link":"https://www.youtube.com/embed/FKM6IkB8yJs?si=z4lhpgF5YfYgCYQp",
-            "title": "Experience Big Time: Gaming excitement awaits, join us today",
-            "chanle":"Big Time",
-            "view" : "1M",
-            "date" : "14-3-2024"
-        },
-        {
-            "id": 6 ,
-            "link":"https://www.youtube.com/embed/cg9tUZ4LiqI?si=7809W_W1T7pvbrHG" ,
-            "title":"Wow NEW BEST LOOT GAMEPLAY in SKYHIGH SPECTACLE MODE Pubg Mobile",
-            "chanle":"pubg RICH",
-            "view" : "2M",
-            "date" : "21-10-2023"
-        },
-        {
-            "id": 7 ,
-            "link":"https://www.youtube.com/embed/2EYLW9GkUhI?si=x9EeiZt-j_OI00yc",
-            "title": "omg😱CRAZY REVENGE GAMEPLAY vs ANGRY PLAYERS !! pubg mobile bgmi",
-            "chanle":"Nemo",
-            "view" : "1M",
-            "date" : "11-3-2022"
-        },
-        {
-            "id": 8 ,
-            "link":"https://www.youtube.com/embed/sgaJdxjz3IA?si=77ctVzI6Qqu_mHGD",
-            "title": "WOW😱REALLY MY BEST SNIPER AWM GAMEPLAY TODAY🔥PUBG Mobile",
-            "chanle":"Fatih GAMING",
-            "view" : "200k",
-            "date" : "11-3-2021"
-        }
+            "id" : 2,
+             "title" : "Gaming"
+         },
+         {
+            "id" : 3,
+             "title" : "Lo-Fi"
+         },
+         {
+            "id" : 4,
+             "title" : "Science-Fiction"
+         },
+         {
+            "id" : 5,
+             "title" : "T-Serice"
+         }
     ]
 }

@@ -1,0 +1,14 @@
+.tage-box li a{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #412727;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #f0ebeb;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.tage-box li a:hover{
+    background: #dbd4d4;
+}
