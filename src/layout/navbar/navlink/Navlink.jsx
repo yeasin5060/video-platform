@@ -7,7 +7,6 @@ import Tagebox from '../../../component/tagebox/Tagebox';
 const Navlink = () => {
     const dispatch = useDispatch()
     let {loding , isError , error , data} = useSelector(state => state.tage)
-    console.log(data);
     useEffect(()=>{
         dispatch(fetchTage())
     },[dispatch])

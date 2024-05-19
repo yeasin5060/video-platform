@@ -10,4 +10,5 @@
 }
 .sidebar:hover{
     overflow: scroll;
+    scroll-behavior: smooth;
 }

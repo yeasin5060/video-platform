@@ -49,6 +49,32 @@
     cursor: pointer;
     color: rgb(18, 61, 124);
 }
-.userdash-all-link-box{
-    margin-top: 30px;
+.userdash-account-link-box{
+    margin-top: 40px;
+    position: relative;
+}
+.userdash-account-link-box::after{
+    position: absolute;
+    content: "";
+    width : 100%;
+    height : 1px;
+    background: #746c6c;
+    left : 0;
+    bottom : -30px;
+}
+.userdash-location-link-box{
+    margin-top: 40px;
+    position: relative;
+}
+.userdash-location-link-box::after{
+    position: absolute;
+    content: "";
+    width : 100%;
+    height : 1px;
+    background: #746c6c;
+    left : 0;
+    bottom : -30px;
+}
+.userdash-settion-box{
+    margin-top: 40px;
 }

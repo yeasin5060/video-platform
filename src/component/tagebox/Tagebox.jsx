@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import './Tagebox.css'
 
 const Tagebox = ({alltage}) => {
-    console.log(alltage);
   return (
     <div className='tage-box'>
         <li>

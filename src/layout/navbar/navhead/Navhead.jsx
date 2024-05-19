@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { IoMdMic } from "react-icons/io";
 import logo from '../../../images/videologo.png'
@@ -7,9 +7,15 @@ import { Link } from 'react-router-dom';
 import Userdashboard from '../../../component/userdashboard/Userdashboard';
 
 const Navhead = () => {
+    let [active , setActive] = useState("")
     let userdetails = document.querySelector(".userdashboard-contant-box")
     let userDash = ()=>{
-        userdetails.classList.toggle("active")
+        setActive(userdetails)
+       if(active == null){
+        console.log("loding");
+       }else{
+        active.classList.toggle("active")
+       }
     }
   return (
     <div className='navbar-wrap'>
