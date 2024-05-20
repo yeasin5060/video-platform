@@ -7,10 +7,13 @@ import musicimg from '../../images/login-music-img.jpeg'
 import Button from '../../component/button/Button'
 import { getAuth, signInWithEmailAndPassword ,signOut} from "firebase/auth";
 import './Login.css'
+import { useDispatch } from 'react-redux'
+import { userdata } from '../../creatslice/userdetails'
 
 const Login = () => {
     const auth = getAuth();
     const navigate = useNavigate()
+    const dispatch = useDispatch()
                 //this useState recive the login data
     const [loginData , setLoginData] = useState({
         email : "",
@@ -45,6 +48,8 @@ const Login = () => {
             signInWithEmailAndPassword(auth, loginData.email, loginData.password)
                 .then((userCredential) => {
                     if(userCredential.user.emailVerified){ //check email verified
+                        localStorage.setItem("user" , JSON.stringify(userCredential.user))
+                        dispatch (userdata(userCredential.user))
                         navigate("/")
                      }else{
                         signOut(auth).then(() => {
