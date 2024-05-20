@@ -1,0 +1,6 @@
+.singlerelated-video-contant-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

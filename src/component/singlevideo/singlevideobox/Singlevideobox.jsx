@@ -6,7 +6,6 @@ import { AiOutlineDislike } from "react-icons/ai";
 import './Singlevideobox.css'
 
 const Singlevideobox = ({singlevideo}) => {
-    console.log(singlevideo);
   return (
     <div className='single-video-contant-box'>
         <div className='single-video-box'>

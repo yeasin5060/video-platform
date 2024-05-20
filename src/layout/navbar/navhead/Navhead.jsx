@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Userdashboard from '../../../component/userdashboard/Userdashboard';
 
 const Navhead = () => {
-    let [active , setActive] = useState("")
+    /*let [active , setActive] = useState("")
     let userdetails = document.querySelector(".userdashboard-contant-box")
     let userDash = ()=>{
         setActive(userdetails)
@@ -16,7 +16,7 @@ const Navhead = () => {
        }else{
         active.classList.toggle("active")
        }
-    }
+    }*/
   return (
     <div className='navbar-wrap'>
         <div className='navbar-logo-box'>
@@ -38,9 +38,6 @@ const Navhead = () => {
             </div>
             <div className='head-notification-box'>
                 <IoMdNotificationsOutline className='head-notification' />
-            </div>
-            <div onClick={userDash} className='head-profile-box'>
-                <img className='head-profile-img' src={profile}  alt='not found'/>
             </div>
             <Userdashboard userdashboard="userdashboard-contant-box"/>
         </div>

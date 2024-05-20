@@ -8,10 +8,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "music",
-                "gaming",
                 "lofi",
-                "t-series",
                 "sciencefiction"
             ]
         },
@@ -23,9 +20,6 @@
             "view" : "2M",
             "date" : "21-10-2023",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
@@ -38,9 +32,6 @@
             "view" : "1M",
             "date" : "11-3-2022",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
@@ -61,9 +52,6 @@
             "view" : "500K",
             "date" : "15-5-2023",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
@@ -76,9 +64,6 @@
             "view" : "1.5M",
             "date" : "11-3-2020",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
@@ -91,9 +76,6 @@
             "view" : "1M",
             "date" : "09-5-2020",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
@@ -108,9 +90,7 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -123,8 +103,6 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
                 "sciencefiction"
             ]
         },
@@ -138,9 +116,7 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -153,9 +129,7 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -168,9 +142,7 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -183,8 +155,6 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
                 "sciencefiction"
             ]
         },
@@ -198,8 +168,6 @@
             "tage" : [
                 "music",
                 "gaming",
-                "lofi",
-                "t-series",
                 "sciencefiction"
             ]
         },
@@ -212,8 +180,6 @@
             "date" : "11-3-2022",
             "tage" : [
                 "music",
-                "gaming",
-                "lofi",
                 "t-series",
                 "sciencefiction"
             ]
