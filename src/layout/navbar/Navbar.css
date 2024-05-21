@@ -35,17 +35,19 @@
 .search-input-box{
     width: 500px;
     background: #fff;
+    position: relative;
+    border: 1px solid #00000088;
+    border-radius: 10px;
 }
 .head-search{
-    width: 100%;
+    width: 90%;
     padding: 13px 30px;
     font-size: 18px;
     font-weight: 500;
     color: #000;
-    border: 1px solid #00000088;
-    border-radius: 10px;
     background: transparent;
     outline: none;
+    border: none;
 }
 .search-voice-box{
     width: 50px;
@@ -161,4 +163,13 @@
 }
 .userdashboard-contant-box.active{
     opacity: 1;
+}
+.search-icon{
+    font-size: 32px;
+    color: #000;
+    font-weight: 600;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    cursor: pointer;
 }

@@ -8,7 +8,6 @@ import './Singlevideocontainer.css'
 import Subbigrelatedvideobax from '../../../subcomponent/subbigretatedvideobox/Subbigrelatedvideobax'
 const Singlevideocontainer = () => {
     const {loding , isError , error, data} = useSelector(state => state.singlevideo)
-    //const {allrelatedvideos} = useSelector( state => state.relatedvideo)
     const {id} = useParams()
     const dispatch = useDispatch()
     useEffect(()=>{
@@ -16,6 +15,7 @@ const Singlevideocontainer = () => {
     },[dispatch , id])
 
     let singleVideo;
+    //let relatedVideo;
     if(loding){
         singleVideo = "loding"
     }
@@ -23,22 +23,15 @@ const Singlevideocontainer = () => {
         singleVideo = `error ${error}`
     }
     if(!loding && !isError && data){
-        singleVideo = <Singlevideobox singlevideo = {data} key={data.id}/>
+        singleVideo = <Singlevideobox singlevideo = {data} key={data.id} />
+        //relatedVideo = <Subbigrelatedvideobax relatedvideo = {data} key={data.id}/>
     }
-
-    /*let bigrelatedvideo;
-    if( allrelatedvideos){
-        bigrelatedvideo = <Subbigrelatedvideobax relatedvideo = {allrelatedvideos} key={allrelatedvideos.id}/>
-        console.log(bigrelatedvideo);
-
-    }*/
-
   return (
    <section id='singlevideo-container'> 
         <div className='container'>
             <div className='singlevdio-container-contant-flex'>
                 <div>
-                    {
+                    {   
                         singleVideo
                     }
                 </div>

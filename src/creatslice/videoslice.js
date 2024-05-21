@@ -8,8 +8,8 @@ const initialState = {
     data : []
 }
 
-export const fetchAllVideo = createAsyncThunk("fetchAllvideo" , async()=>{
-    let res = await allVideo()
+export const fetchAllVideo = createAsyncThunk("fetchAllvideo" , async({tage , searchs})=>{
+    let res = await allVideo({tage , searchs})
     return res
 })
 

@@ -5,11 +5,12 @@ import { AiOutlineLike } from "react-icons/ai";
 import { AiOutlineDislike } from "react-icons/ai";
 import './Subbigrelatedvideobax.css'
 
-const Subbigrelatedvideobax = () => {
+const Subbigrelatedvideobax = ({relatedvideo}) => {
+    console.log(relatedvideo);
   return (
     <div className='subbigrelatedvideobox-video-contant-box'>
         <div className='subbigrelatedvideobox-video-box'>
-            <iframe src=''  frameborder="0"></iframe>
+            <iframe src={relatedvideo.link}  frameborder="0"></iframe>
         </div>
         <div className='subbigrelatedvideobox-video-details-box'>
             <Minihead text='' style='subbigrelatedvideobox-video-details-tittle'/>

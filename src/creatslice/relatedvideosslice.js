@@ -5,7 +5,7 @@ const initialState = {
     loding : false,
     isError : false,
     error : false,
-    data : {}
+    videodata : {}
 }
 
 export const fetchRelatedVideo = createAsyncThunk("allvideo/fetchrelatedvideo" ,async({tage , id})=>{
@@ -22,11 +22,11 @@ export const relatedVideoSlice = createSlice({
         })
         .addCase(fetchRelatedVideo .fulfilled,(state , action)=>{
             state.loding = false;
-            state.data = action.payload
+            state.videodata = action.payload
         })
         .addCase(fetchRelatedVideo .rejected,(state , action)=>{
             state.loding = false
-            state.data = []
+            state.videodata = []
             state.isError = true
             state.error = action.error.message
         })

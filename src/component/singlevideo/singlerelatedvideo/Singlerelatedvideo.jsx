@@ -5,16 +5,16 @@ import { fetchRelatedVideo } from '../../../creatslice/relatedvideosslice';
 import Subrelatedvideobox from '../../../subcomponent/subrelatedvideobox/Subrelatedvideobox';
 
 const Singlerelatedvideo = ({tages , id }) => {
-  const {data} = useSelector( state => state.relatedvideo)
+  const {videodata} = useSelector( state => state.relatedvideo)
     const dispetch = useDispatch()
     useEffect(()=>{
        dispetch(fetchRelatedVideo({tages , id}))
     },[dispetch,tages,id])
   return (
     <div className='singlerelated-video-contant-box'>
-        { data.length > 0 &&
-            data.map((items)=>(
-               <Subrelatedvideobox key={items.id} relatedvideolink={`/${items.id}`} videolink={items.link} title={items.title} chanle={items.chanle} view={items.view} date={items.date}/>
+        { videodata.length > 0 &&
+            videodata.map((items)=>(
+              <Subrelatedvideobox key={items.id} relatedvideolink={`/${items.id}`} videolink={items.link} title={items.title} chanle={items.chanle} view={items.view} date={items.date}/>
            ))
         }
     </div>

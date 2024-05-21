@@ -1,4 +1,8 @@
-.tage-box li a{
+.tage-box{
+    position: relative;
+    z-index: 1000;
+}
+.selected-tag-link{
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
@@ -9,6 +13,17 @@
     border-radius: 10px;
     transition: all linear 0.3s;
 }
-.tage-box li a:hover{
+.selected-tag-link{
     background: #dbd4d4;
+}
+.selected-tage{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #272c41;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #1d4785;
+    border-radius: 10px;
+    transition: all linear 0.3s;
 }

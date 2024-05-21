@@ -6,10 +6,11 @@ import './Allvideo.css';
 
 const Allvideo = () => {
     let { loding , isError , error , data} = useSelector(state => state.video);
+    let {tage , searchs} = useSelector( state => state.search)
     const dispatch = useDispatch();
     useEffect(()=>{
-      dispatch(fetchAllVideo())
-    },[dispatch])
+      dispatch(fetchAllVideo(tage , searchs))
+    },[dispatch , tage , searchs])
 
     let allvideo;
 
