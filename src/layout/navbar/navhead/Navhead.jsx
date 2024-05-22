@@ -12,7 +12,7 @@ import { searchTage } from '../../../creatslice/filterslice';
 const Navhead = () => {
     let [inputSearchVal , setInputSearchVal] = useState("")
     const dispatch = useDispatch()
-    /*let [active , setActive] = useState("")
+    let [active , setActive] = useState("")
     let userdetails = document.querySelector(".userdashboard-contant-box")
     let userDash = ()=>{
         setActive(userdetails)
@@ -21,7 +21,7 @@ const Navhead = () => {
        }else{
         active.classList.toggle("active")
        }
-    }*/
+    }
 
 
     let handleSearchVal = (value)=>{
@@ -54,7 +54,7 @@ const Navhead = () => {
             <div className='head-notification-box'>
                 <IoMdNotificationsOutline className='head-notification' />
             </div>
-            <div className='head-profile-box'>
+            <div className='head-profile-box' onClick={userDash}>
                 <img src={profile} alt="not found" />
             </div>
             <Userdashboard userdashboard="userdashboard-contant-box"/>

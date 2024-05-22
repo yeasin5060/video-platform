@@ -1,7 +1,3 @@
-.tage-box{
-    position: relative;
-    z-index: 1000;
-}
 .selected-tag-link{
     cursor: pointer;
     font-size: 18px;

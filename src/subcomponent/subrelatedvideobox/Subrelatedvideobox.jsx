@@ -6,7 +6,7 @@ import './Subrelatedvideobox.css'
 const Subrelatedvideobox = ({relatedvideolink, videolink , title , chanle , view , date}) => {
   return (
     <div className='subrelatedvideobox-video-contant'>
-        <Link ot = {relatedvideolink}>
+        <Link ot ={relatedvideolink}>
             <div className='subrelatedvideobox-video-box'>
                 <iframe src={videolink}  frameborder="0"></iframe>
             </div>

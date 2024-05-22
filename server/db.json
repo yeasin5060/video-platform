@@ -8,8 +8,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "lofi",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -20,8 +19,7 @@
             "view" : "2M",
             "date" : "21-10-2023",
             "tage" : [
-                "t-series",
-                "sciencefiction"
+                "lofi"
             ]
         },
         {
@@ -32,8 +30,7 @@
             "view" : "1M",
             "date" : "11-3-2022",
             "tage" : [
-                "t-series",
-                "sciencefiction"
+               "sciencefiction"
             ]
         },
         {
@@ -42,7 +39,10 @@
             "title": "ASMR Programming - Coding Pacman - No Talking",
             "chanle":"Servet Gulnaroglu",
             "view" : "200k",
-            "date" : "11-3-2021"
+            "date" : "11-3-2021",
+            "tage" : [
+                "sciencefiction"
+            ]
         },
         {
             "id": 5 ,
@@ -52,7 +52,6 @@
             "view" : "500K",
             "date" : "15-5-2023",
             "tage" : [
-                "t-series",
                 "sciencefiction"
             ]
         },
@@ -76,8 +75,7 @@
             "view" : "1M",
             "date" : "09-5-2020",
             "tage" : [
-                "t-series",
-                "sciencefiction"
+                "t-series"
             ]
         },
         {
@@ -88,9 +86,7 @@
             "view" : "200k",
             "date" : "11-3-2021",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi"
+                "sciencefiction"
             ]
         },
         {
@@ -101,9 +97,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "music",
-                "gaming",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -114,9 +108,7 @@
             "view" : "2M",
             "date" : "21-10-2023",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi"
+                "gaming"
             ]
         },
         {
@@ -127,9 +119,7 @@
             "view" : "1M",
             "date" : "11-3-2022",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi"
+                "gaming"
             ]
         },
         {
@@ -140,9 +130,7 @@
             "view" : "200k",
             "date" : "11-3-2021",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi"
+                "gaming"
             ]
         },
         {
@@ -153,9 +141,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "music",
-                "gaming",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -166,9 +152,7 @@
             "view" : "2M",
             "date" : "21-10-2023",
             "tage" : [
-                "music",
-                "gaming",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -192,11 +176,7 @@
             "view" : "200k",
             "date" : "11-3-2021",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -207,11 +187,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -222,11 +198,7 @@
             "view" : "2M",
             "date" : "21-10-2023",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -237,11 +209,7 @@
             "view" : "1M",
             "date" : "11-3-2022",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -252,11 +220,7 @@
             "view" : "200k",
             "date" : "11-3-2021",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -267,11 +231,7 @@
             "view" : "1M",
             "date" : "14-3-2024",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         },
         {
@@ -281,12 +241,8 @@
             "chanle":"pubg RICH",
             "view" : "2M",
             "date" : "21-10-2023",
-            "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+            "tage" : [ 
+                "gaming"
             ]
         },
         {
@@ -297,11 +253,7 @@
             "view" : "1M",
             "date" : "11-3-2022",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
 
         },
@@ -313,15 +265,11 @@
             "view" : "200k",
             "date" : "11-3-2021",
             "tage" : [
-                "music",
-                "gaming",
-                "lofi",
-                "t-series",
-                "sciencefiction"
+                "gaming"
             ]
         }
     ],
-    "tage" : [
+    "tages" : [
         {
            "id" : 1,
             "title" : "Music"

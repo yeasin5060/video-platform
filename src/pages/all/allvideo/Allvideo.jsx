@@ -11,7 +11,6 @@ const Allvideo = () => {
     useEffect(()=>{
       dispatch(fetchAllVideo(tage , searchs))
     },[dispatch , tage , searchs])
-
     let allvideo;
 
     if(loding){

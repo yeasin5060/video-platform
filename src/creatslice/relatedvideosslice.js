@@ -5,7 +5,7 @@ const initialState = {
     loding : false,
     isError : false,
     error : false,
-    videodata : {}
+    videodata : []
 }
 
 export const fetchRelatedVideo = createAsyncThunk("allvideo/fetchrelatedvideo" ,async({tage , id})=>{

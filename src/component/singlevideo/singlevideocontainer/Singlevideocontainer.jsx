@@ -5,7 +5,6 @@ import { fetchSingleVideo } from '../../../creatslice/singlevideoslice'
 import { useParams } from 'react-router-dom'
 import Singlerelatedvideo from '../singlerelatedvideo/Singlerelatedvideo'
 import './Singlevideocontainer.css'
-import Subbigrelatedvideobax from '../../../subcomponent/subbigretatedvideobox/Subbigrelatedvideobax'
 const Singlevideocontainer = () => {
     const {loding , isError , error, data} = useSelector(state => state.singlevideo)
     const {id} = useParams()
@@ -15,7 +14,6 @@ const Singlevideocontainer = () => {
     },[dispatch , id])
 
     let singleVideo;
-    //let relatedVideo;
     if(loding){
         singleVideo = "loding"
     }
@@ -24,8 +22,8 @@ const Singlevideocontainer = () => {
     }
     if(!loding && !isError && data){
         singleVideo = <Singlevideobox singlevideo = {data} key={data.id} />
-        //relatedVideo = <Subbigrelatedvideobax relatedvideo = {data} key={data.id}/>
     }
+    console.log(data.tage);
   return (
    <section id='singlevideo-container'> 
         <div className='container'>
@@ -36,7 +34,7 @@ const Singlevideocontainer = () => {
                     }
                 </div>
                 <div>
-                    <Singlerelatedvideo tages = {data.tage} id={data.id} />
+                    <Singlerelatedvideo tage = {data.tage} id={id} />
                 </div>
             </div>
         </div>

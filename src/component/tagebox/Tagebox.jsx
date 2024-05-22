@@ -15,10 +15,11 @@ const Tagebox = ({alltage}) => {
       dispatch(addTage(alltage))
      }
   }
+  console.log(alltage);
   return (
     <div className="tage-box">
         <li  onClick={handletag}>
-            <Link className={selectedTag === true?"selected-tag-link" : "selected-tag-link"} to= {alltage.id}  >{alltage.title}</Link>
+          <Link className={selectedTag === true?"selected-tag-link" : "selected-tag-link"} to= {alltage.id}  >{alltage.title}</Link>
         </li>
     </div>
   )

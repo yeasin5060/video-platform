@@ -14,7 +14,7 @@ export const fetchTage = createAsyncThunk("feathtage" , async()=>{
 })
 
 export const allTage = createSlice({
-    name : "tage",
+    name : "tages",
     initialState,
     extraReducers : (builder)=>{
         builder.addCase(fetchTage.pending,(state)=>{
