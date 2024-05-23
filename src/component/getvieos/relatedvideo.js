@@ -5,7 +5,5 @@ export const relatedVideo = async({tage, id})=>{
         return `tage_like=${tag}`
     }).join("&") + `&id_ne=${id}` + '&_limit=10';
     const {data} = await api.get(`/allvideo/?${querystring}`)
-    console.log(querystring);
-    console.log(data);
     return data
 }

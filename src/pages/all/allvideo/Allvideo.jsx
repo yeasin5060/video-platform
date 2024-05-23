@@ -9,10 +9,10 @@ const Allvideo = () => {
     let {tage , searchs} = useSelector( state => state.search)
     const dispatch = useDispatch();
     useEffect(()=>{
-      dispatch(fetchAllVideo(tage , searchs))
+      dispatch(fetchAllVideo({tage , searchs}))
     },[dispatch , tage , searchs])
-    let allvideo;
 
+    let allvideo;
     if(loding){
       allvideo = "loding...."
     }

@@ -13,9 +13,9 @@ export const filterSlice = createSlice({
             state.tage.push(action.payload)
         },
         removeTage: ( state , action)=>{
-            state.tage = state.tage.filter((tag) => tag !== action.payload) 
+            state.tage = state.tage.filter((tage) => tage !== action.payload) 
         },
-        searchTage : ( state, action)=>{
+        searchTage : ( state, action)=>{ 
            if(action.payload){
                 state.searchs += action.payload
            }else{

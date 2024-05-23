@@ -11,13 +11,11 @@ const Singlerelatedvideo = ({tage , id }) => {
     useEffect(()=>{
       dispetch(fetchRelatedVideo({tage , id}))
     },[dispetch,tage,id])
-  console.log(tage , id);
-  console.log(videodata[0].id);
   return (
     <div className='singlerelated-video-contant-box'>
         { videodata.length > 0 &&
             videodata.map((items , index)=>(
-              <Subrelatedvideobox key={index} relatedvideolink={items.id} videolink={items.link} title={items.title} chanle={items.chanle} view={items.view} date={items.date}/>
+              <Subrelatedvideobox key={index} videolink={items.link} title={items.title} chanle={items.chanle} view={items.view} date={items.date}/>
            ))
         }
     </div>

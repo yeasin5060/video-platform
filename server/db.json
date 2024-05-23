@@ -63,7 +63,7 @@
             "view" : "1.5M",
             "date" : "11-3-2020",
             "tage" : [
-                "t-series",
+                "tseries",
                 "sciencefiction"
             ]
         },
@@ -75,7 +75,7 @@
             "view" : "1M",
             "date" : "09-5-2020",
             "tage" : [
-                "t-series"
+                "tseries"
             ]
         },
         {
@@ -164,7 +164,7 @@
             "date" : "11-3-2022",
             "tage" : [
                 "music",
-                "t-series",
+                "tseries",
                 "sciencefiction"
             ]
         },
@@ -272,23 +272,23 @@
     "tages" : [
         {
            "id" : 1,
-            "title" : "Music"
+            "title" : "music"
         },
         {
             "id" : 2,
-             "title" : "Gaming"
+            "title" : "gaming"
          },
          {
             "id" : 3,
-             "title" : "Lo-Fi"
+             "title" : "lofi"
          },
          {
             "id" : 4,
-             "title" : "Science-Fiction"
+             "title" : "sciencefiction"
          },
          {
             "id" : 5,
-             "title" : "T-Serice"
+             "title" : "tserice"
          }
     ]
 }
