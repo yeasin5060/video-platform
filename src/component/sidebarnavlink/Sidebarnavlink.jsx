@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 import './Sidebarnavlink.css'
 
 const Sidebarnavlink = ({link , linktext , icon}) => {
@@ -8,7 +8,7 @@ const Sidebarnavlink = ({link , linktext , icon}) => {
         <div className='navlink-icon-box'>
             {icon}
         </div>
-        <NavLink className='navlink-style' to={link}>{linktext}</NavLink>
+        <Link className='navlink-style' to={link}>{linktext}</Link>
     </div>
   )
 }

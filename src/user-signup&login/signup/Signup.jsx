@@ -6,6 +6,7 @@ import Button from '../../component/button/Button'
 import { getAuth, createUserWithEmailAndPassword, sendEmailVerification, updateProfile } from "firebase/auth";
 import { getDatabase, ref, set } from "firebase/database";
 import { useNavigate } from 'react-router-dom'
+import { Oval } from 'react-loader-spinner';
 import './Signup.css'
 
 const Signup = () => {
@@ -64,6 +65,8 @@ const Signup = () => {
             setSendError({conpass:""})
             setSendError({conpass : "Confirm Password Don't match"})
         }else{
+            // react loder true
+            setLoder(true)
             setSendError({conpass:""})
             createUserWithEmailAndPassword(auth, signinData.email, signinData.password)
             .then((userCredential) => {
@@ -79,7 +82,7 @@ const Signup = () => {
                                 viewerimg : userCredential.user.photoURL
                             })
                       }).then(()=>{
-                        navigate("/login")
+                        navigate("/")
                     });
                 });
             })
@@ -87,12 +90,15 @@ const Signup = () => {
               const errorCode = error.code;
               if(errorCode == "auth/email-already-in-use"){
                     setSendError({email :"Email already exised"})
+                setLoder(false)
               }else{
                 setSendError({email : ""})
               }
             });
         }
     }
+    // react loder state
+    let [loder , setLoder] = useState(false)
   return (
     <section id='signin-page'>
         <div className='signin-page-wrapper'>
@@ -127,7 +133,21 @@ const Signup = () => {
                             {sendError.conpass && <p className='signin-lonin-error'>{sendError.conpass}</p>}
                         </div>
                         <div className='signin-form-signin-btn-box'>
-                            <Button Submit={signinBtn} text='signin' style='signin-form-signin-btn'/>
+                            {
+                                loder
+                                ?
+                                (<Oval
+                                    visible={true}
+                                    height="25"
+                                    width="25"
+                                    color="#000"
+                                    ariaLabel="oval-loading"
+                                    wrapperStyle={{}}
+                                    wrapperClass="oval"
+                                    />)
+                                :
+                                <Button Submit={signinBtn} text='signin' style='signin-form-signin-btn'/>
+                            }
                         </div>
                     </form>
                 </div>

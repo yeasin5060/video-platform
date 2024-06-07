@@ -12,7 +12,7 @@ const Sidebarsetting = () => {
         <Sidebarnavlink icon={<MdOutlineSettings />} linktext='setting' link=''/>
         <Sidebarnavlink icon={<IoFlagOutline />} linktext='report history' link=''/>
         <Sidebarnavlink icon={<AiTwotoneQuestionCircle />} linktext ='help'  link = ''/> 
-        <Sidebarnavlink icon={<AiOutlineFileExclamation />} linktext='send feedback' link=''/>
+        <Sidebarnavlink icon={<AiOutlineFileExclamation />} linktext='sendfeedback' link=''/>
     </div>
   )
 }

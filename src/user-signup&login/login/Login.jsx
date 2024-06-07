@@ -6,9 +6,10 @@ import googlelogo from '../../images/google.svg'
 import musicimg from '../../images/login-music-img.jpeg'
 import Button from '../../component/button/Button'
 import { getAuth, signInWithEmailAndPassword ,signOut} from "firebase/auth";
-import './Login.css'
 import { useDispatch } from 'react-redux'
 import { userdata } from '../../creatslice/userdetails'
+import { Oval } from 'react-loader-spinner';
+import './Login.css'
 
 const Login = () => {
     const auth = getAuth();
@@ -36,6 +37,8 @@ const Login = () => {
 
     const loginBtn = (e)=>{
         e.preventDefault();
+        //react loder ture
+        setReactLoder(true)
                 //validation
         if(!loginData.email){
             setSendError({email:"Email is Require"})
@@ -50,7 +53,7 @@ const Login = () => {
                     if(userCredential.user.emailVerified){ //check email verified
                         localStorage.setItem("user" , JSON.stringify(userCredential.user))
                         dispatch (userdata(userCredential.user))
-                        navigate("/")
+                        navigate("home")
                      }else{
                         signOut(auth).then(() => {
                             setSendError({email:"Please verify your email"})
@@ -61,6 +64,7 @@ const Login = () => {
                     const errorCode = error.code;
                     if(errorCode == "auth/invalid-credential"){
                         setSendError({email : "invalid email or password"})
+                        setReactLoder(false)
                     }else{
                         setSendError({email : ""})
                     }
@@ -68,6 +72,9 @@ const Login = () => {
 
         }
     }
+
+        //react loder
+    let [ reactLoder , setReactLoder] = useState (false)
   return (
     <section id='login-page'>
         <div className='login-page-wrapper'>
@@ -97,7 +104,21 @@ const Login = () => {
                             <Link className='forget-pass' to='forget'>Forget?</Link>
                         </div>
                         <div className='form-login-btn-box'>
-                            <Button Submit={loginBtn} text='login' style='form-login-btn'/>
+                            {
+                                reactLoder
+                                ?
+                                (<Oval
+                                    visible={true}
+                                    height="30"
+                                    width="30"
+                                    color="#fff"
+                                    ariaLabel="oval-loading"
+                                    wrapperStyle={{}}
+                                    wrapperClass="oval"
+                                    />)
+                                :
+                                <Button Submit={loginBtn} text='login' style='form-login-btn'/>
+                            }
                         </div>
                         <div className='sign-create-account-box'>
                             <Pera text='Not a member?' style='sign-create-account-style'/>

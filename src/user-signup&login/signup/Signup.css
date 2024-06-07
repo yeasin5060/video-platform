@@ -134,6 +134,8 @@
     align-items: center;
     justify-content: center;
     margin: 20px 0;
+    background: #2be2d3;
+    border-radius: 10px;
 }
 .signin-form-signin-btn{
     width: 100%;
@@ -146,4 +148,7 @@
     border: none;
     cursor: pointer;
     text-transform: capitalize;
+}
+.oval{
+    padding: 10px 0;
 }

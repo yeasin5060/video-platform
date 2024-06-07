@@ -26,7 +26,7 @@ const Navlink = () => {
         <nav className='nav-box'>
             <ul className='nav-route'>
                 <li>
-                    <NavLink to="/">all</NavLink>
+                    <NavLink to="home">all</NavLink>
                 </li>
                 {
                     tages

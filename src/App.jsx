@@ -9,6 +9,7 @@ import All from "./pages/all/All";
 import Login from "./user-signup&login/login/Login";
 import Signup from "./user-signup&login/signup/Signup";
 import Singlevideodetails from "./pages/singlevideodetails/Singlevideodetails";
+import Errorpage from "./pages/errorpage/Errorpage";
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
     createRoutesFromElements(
       <Route>
           <Route element = {<Main/>}>
-            <Route path="/" element = {<All/>}/>
+            <Route path="home" element = {<All/>}/>
             <Route path="/:id" element = {<Singlevideodetails/>}/>
           </Route>
           <Route path="signup" element={<Signup/>}/>
-          <Route path="/login" element={<Login/>}/>
+          <Route path="/" element={<Login/>}/>
+          <Route path="*" element = {<Errorpage/>}/>
       </Route>
     )
   );

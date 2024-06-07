@@ -156,6 +156,8 @@
     align-items: center;
     justify-content: center;
     margin: 10px 0;
+    background: #2be2d3;
+    border-radius: 10px;
 }
 .form-login-btn{
     width: 100%;
@@ -189,4 +191,7 @@
     color: #2c7243;
     text-transform: capitalize;
     cursor: pointer;
+}
+.oval{
+    padding: 13px 0;
 }
